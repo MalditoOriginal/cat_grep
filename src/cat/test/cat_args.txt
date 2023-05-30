@@ -1,0 +1,452 @@
+-b test/test_1_cat.txt test/test_2_cat.txt
+-e test/test_1_cat.txt test/test_2_cat.txt
+-n test/test_1_cat.txt test/test_2_cat.txt
+-s test/test_1_cat.txt test/test_2_cat.txt
+-t test/test_1_cat.txt test/test_2_cat.txt
+-b test/test_4_cat.txt
+-e test/test_4_cat.txt
+-n test/test_4_cat.txt
+-s test/test_4_cat.txt
+-t test/test_4_cat.txt 
+-b test/test_3_cat.txt
+-e test/test_3_cat.txt
+-n test/test_3_cat.txt
+-s test/test_3_cat.txt
+-t test/test_3_cat.txt
+-t test/test_3_cat.txt 
+-b test/test_5_cat.txt
+-e test/test_5_cat.txt
+-n test/test_5_cat.txt
+-s test/test_5_cat.txt
+-t test/test_5_cat.txt
+-be test/test_5_cat.txt
+-eb test/test_5_cat.txt
+-ns test/test_5_cat.txt
+-st test/test_5_cat.txt
+-tb test/test_5_cat.txt
+-bes test/test_5_cat.txt
+-b -b test/test_1_cat.txt
+-e -b test/test_1_cat.txt
+-n -b test/test_1_cat.txt
+-s -b test/test_1_cat.txt
+-t -b test/test_1_cat.txt
+-b -e test/test_1_cat.txt
+-e -e test/test_1_cat.txt
+-n -e test/test_1_cat.txt
+-s -e test/test_1_cat.txt
+-t -e test/test_1_cat.txt
+-b -n test/test_1_cat.txt
+-e -n test/test_1_cat.txt
+-n -n test/test_1_cat.txt
+-s -n test/test_1_cat.txt
+-t -n test/test_1_cat.txt
+-b -s test/test_1_cat.txt
+-e -s test/test_1_cat.txt
+-n -s test/test_1_cat.txt
+-s -s test/test_1_cat.txt
+-t -s test/test_1_cat.txt
+-b -t test/test_1_cat.txt
+-e -t test/test_1_cat.txt
+-n -t test/test_1_cat.txt
+-s -t test/test_1_cat.txt
+-t -t test/test_1_cat.txt
+-b -b -b test/test_1_cat.txt
+-e -b -b test/test_1_cat.txt
+-n -b -b test/test_1_cat.txt
+-s -b -b test/test_1_cat.txt
+-t -b -b test/test_1_cat.txt
+-b -e -b test/test_1_cat.txt
+-e -e -b test/test_1_cat.txt
+-n -e -b test/test_1_cat.txt
+-s -e -b test/test_1_cat.txt
+-t -e -b test/test_1_cat.txt
+-b -n -b test/test_1_cat.txt
+-e -n -b test/test_1_cat.txt
+-n -n -b test/test_1_cat.txt
+-s -n -b test/test_1_cat.txt
+-t -n -b test/test_1_cat.txt
+-b -s -b test/test_1_cat.txt
+-e -s -b test/test_1_cat.txt
+-n -s -b test/test_1_cat.txt
+-s -s -b test/test_1_cat.txt
+-t -s -b test/test_1_cat.txt
+-b -t -b test/test_1_cat.txt
+-e -t -b test/test_1_cat.txt
+-n -t -b test/test_1_cat.txt
+-s -t -b test/test_1_cat.txt
+-t -t -b test/test_1_cat.txt
+-b -b -e test/test_1_cat.txt
+-e -b -e test/test_1_cat.txt
+-n -b -e test/test_1_cat.txt
+-s -b -e test/test_1_cat.txt
+-t -b -e test/test_1_cat.txt
+-b -e -e test/test_1_cat.txt
+-e -e -e test/test_1_cat.txt
+-n -e -e test/test_1_cat.txt
+-s -e -e test/test_1_cat.txt
+-t -e -e test/test_1_cat.txt
+-b -n -e test/test_1_cat.txt
+-e -n -e test/test_1_cat.txt
+-n -n -e test/test_1_cat.txt
+-s -n -e test/test_1_cat.txt
+-t -n -e test/test_1_cat.txt
+-b -s -e test/test_1_cat.txt
+-e -s -e test/test_1_cat.txt
+-n -s -e test/test_1_cat.txt
+-s -s -e test/test_1_cat.txt
+-t -s -e test/test_1_cat.txt
+-b -t -e test/test_1_cat.txt
+-e -t -e test/test_1_cat.txt
+-n -t -e test/test_1_cat.txt
+-s -t -e test/test_1_cat.txt
+-t -t -e test/test_1_cat.txt
+-b -b -n test/test_1_cat.txt
+-e -b -n test/test_1_cat.txt
+-n -b -n test/test_1_cat.txt
+-s -b -n test/test_1_cat.txt
+-t -b -n test/test_1_cat.txt
+-b -e -n test/test_1_cat.txt
+-e -e -n test/test_1_cat.txt
+-n -e -n test/test_1_cat.txt
+-s -e -n test/test_1_cat.txt
+-t -e -n test/test_1_cat.txt
+-b -n -n test/test_1_cat.txt
+-e -n -n test/test_1_cat.txt
+-n -n -n test/test_1_cat.txt
+-s -n -n test/test_1_cat.txt
+-t -n -n test/test_1_cat.txt
+-b -s -n test/test_1_cat.txt
+-e -s -n test/test_1_cat.txt
+-n -s -n test/test_1_cat.txt
+-s -s -n test/test_1_cat.txt
+-t -s -n test/test_1_cat.txt
+-b -t -n test/test_1_cat.txt
+-e -t -n test/test_1_cat.txt
+-n -t -n test/test_1_cat.txt
+-s -t -n test/test_1_cat.txt
+-t -t -n test/test_1_cat.txt
+-b -b -s test/test_1_cat.txt
+-e -b -s test/test_1_cat.txt
+-n -b -s test/test_1_cat.txt
+-s -b -s test/test_1_cat.txt
+-t -b -s test/test_1_cat.txt
+-b -e -s test/test_1_cat.txt
+-e -e -s test/test_1_cat.txt
+-n -e -s test/test_1_cat.txt
+-s -e -s test/test_1_cat.txt
+-t -e -s test/test_1_cat.txt
+-b -n -s test/test_1_cat.txt
+-e -n -s test/test_1_cat.txt
+-n -n -s test/test_1_cat.txt
+-s -n -s test/test_1_cat.txt
+-t -n -s test/test_1_cat.txt
+-b -s -s test/test_1_cat.txt
+-e -s -s test/test_1_cat.txt
+-n -s -s test/test_1_cat.txt
+-s -s -s test/test_1_cat.txt
+-t -s -s test/test_1_cat.txt
+-b -t -s test/test_1_cat.txt
+-e -t -s test/test_1_cat.txt
+-n -t -s test/test_1_cat.txt
+-s -t -s test/test_1_cat.txt
+-t -t -s test/test_1_cat.txt
+-b -b -t test/test_1_cat.txt
+-e -b -t test/test_1_cat.txt
+-n -b -t test/test_1_cat.txt
+-s -b -t test/test_1_cat.txt
+-t -b -t test/test_1_cat.txt
+-b -e -t test/test_1_cat.txt
+-e -e -t test/test_1_cat.txt
+-n -e -t test/test_1_cat.txt
+-s -e -t test/test_1_cat.txt
+-t -e -t test/test_1_cat.txt
+-b -n -t test/test_1_cat.txt
+-e -n -t test/test_1_cat.txt
+-n -n -t test/test_1_cat.txt
+-s -n -t test/test_1_cat.txt
+-t -n -t test/test_1_cat.txt
+-b -s -t test/test_1_cat.txt
+-e -s -t test/test_1_cat.txt
+-n -s -t test/test_1_cat.txt
+-s -s -t test/test_1_cat.txt
+-t -s -t test/test_1_cat.txt
+-b -t -t test/test_1_cat.txt
+-e -t -t test/test_1_cat.txt
+-n -t -t test/test_1_cat.txt
+-s -t -t test/test_1_cat.txt
+-t -t -t test/test_1_cat.txt
+-b -b -b test/test_4_cat.txt test/test_5_cat.txt
+-e -b -b test/test_4_cat.txt test/test_5_cat.txt
+-n -b -b test/test_4_cat.txt test/test_5_cat.txt
+-s -b -b test/test_4_cat.txt test/test_5_cat.txt
+-t -b -b test/test_4_cat.txt test/test_5_cat.txt
+-b -e -b test/test_4_cat.txt test/test_5_cat.txt
+-e -e -b test/test_4_cat.txt test/test_5_cat.txt
+-n -e -b test/test_4_cat.txt test/test_5_cat.txt
+-s -e -b test/test_4_cat.txt test/test_5_cat.txt
+-t -e -b test/test_4_cat.txt test/test_5_cat.txt
+-b -n -b test/test_4_cat.txt test/test_5_cat.txt
+-e -n -b test/test_4_cat.txt test/test_5_cat.txt
+-n -n -b test/test_4_cat.txt test/test_5_cat.txt
+-s -n -b test/test_4_cat.txt test/test_5_cat.txt
+-t -n -b test/test_4_cat.txt test/test_5_cat.txt
+-b -s -b test/test_4_cat.txt test/test_5_cat.txt
+-e -s -b test/test_4_cat.txt test/test_5_cat.txt
+-n -s -b test/test_4_cat.txt test/test_5_cat.txt
+-s -s -b test/test_4_cat.txt test/test_5_cat.txt
+-t -s -b test/test_4_cat.txt test/test_5_cat.txt
+-b -t -b test/test_4_cat.txt test/test_5_cat.txt
+-e -t -b test/test_4_cat.txt test/test_5_cat.txt
+-n -t -b test/test_4_cat.txt test/test_5_cat.txt
+-s -t -b test/test_4_cat.txt test/test_5_cat.txt
+-t -t -b test/test_4_cat.txt test/test_5_cat.txt
+-b -b -e test/test_4_cat.txt test/test_5_cat.txt
+-e -b -e test/test_4_cat.txt test/test_5_cat.txt
+-n -b -e test/test_4_cat.txt test/test_5_cat.txt
+-s -b -e test/test_4_cat.txt test/test_5_cat.txt
+-t -b -e test/test_4_cat.txt test/test_5_cat.txt
+-b -e -e test/test_4_cat.txt test/test_5_cat.txt
+-e -e -e test/test_4_cat.txt test/test_5_cat.txt
+-n -e -e test/test_4_cat.txt test/test_5_cat.txt
+-s -e -e test/test_4_cat.txt test/test_5_cat.txt
+-t -e -e test/test_4_cat.txt test/test_5_cat.txt
+-b -n -e test/test_4_cat.txt test/test_5_cat.txt
+-e -n -e test/test_4_cat.txt test/test_5_cat.txt
+-n -n -e test/test_4_cat.txt test/test_5_cat.txt
+-s -n -e test/test_4_cat.txt test/test_5_cat.txt
+-t -n -e test/test_4_cat.txt test/test_5_cat.txt
+-b -s -e test/test_4_cat.txt test/test_5_cat.txt
+-e -s -e test/test_4_cat.txt test/test_5_cat.txt
+-n -s -e test/test_4_cat.txt test/test_5_cat.txt
+-s -s -e test/test_4_cat.txt test/test_5_cat.txt
+-t -s -e test/test_4_cat.txt test/test_5_cat.txt
+-b -t -e test/test_4_cat.txt test/test_5_cat.txt
+-e -t -e test/test_4_cat.txt test/test_5_cat.txt
+-n -t -e test/test_4_cat.txt test/test_5_cat.txt
+-s -t -e test/test_4_cat.txt test/test_5_cat.txt
+-t -t -e test/test_4_cat.txt test/test_5_cat.txt
+-b -b -n test/test_4_cat.txt test/test_5_cat.txt
+-e -b -n test/test_4_cat.txt test/test_5_cat.txt
+-n -b -n test/test_4_cat.txt test/test_5_cat.txt
+-s -b -n test/test_4_cat.txt test/test_5_cat.txt
+-t -b -n test/test_4_cat.txt test/test_5_cat.txt
+-b -e -n test/test_4_cat.txt test/test_5_cat.txt
+-e -e -n test/test_4_cat.txt test/test_5_cat.txt
+-n -e -n test/test_4_cat.txt test/test_5_cat.txt
+-s -e -n test/test_4_cat.txt test/test_5_cat.txt
+-t -e -n test/test_4_cat.txt test/test_5_cat.txt
+-b -n -n test/test_4_cat.txt test/test_5_cat.txt
+-e -n -n test/test_4_cat.txt test/test_5_cat.txt
+-n -n -n test/test_4_cat.txt test/test_5_cat.txt
+-s -n -n test/test_4_cat.txt test/test_5_cat.txt
+-t -n -n test/test_4_cat.txt test/test_5_cat.txt
+-b -s -n test/test_4_cat.txt test/test_5_cat.txt
+-e -s -n test/test_4_cat.txt test/test_5_cat.txt
+-n -s -n test/test_4_cat.txt test/test_5_cat.txt
+-s -s -n test/test_4_cat.txt test/test_5_cat.txt
+-t -s -n test/test_4_cat.txt test/test_5_cat.txt
+-b -t -n test/test_4_cat.txt test/test_5_cat.txt
+-e -t -n test/test_4_cat.txt test/test_5_cat.txt
+-n -t -n test/test_4_cat.txt test/test_5_cat.txt
+-s -t -n test/test_4_cat.txt test/test_5_cat.txt
+-t -t -n test/test_4_cat.txt test/test_5_cat.txt
+-b -b -s test/test_4_cat.txt test/test_5_cat.txt
+-e -b -s test/test_4_cat.txt test/test_5_cat.txt
+-n -b -s test/test_4_cat.txt test/test_5_cat.txt
+-s -b -s test/test_4_cat.txt test/test_5_cat.txt
+-t -b -s test/test_4_cat.txt test/test_5_cat.txt
+-b -e -s test/test_4_cat.txt test/test_5_cat.txt
+-e -e -s test/test_4_cat.txt test/test_5_cat.txt
+-n -e -s test/test_4_cat.txt test/test_5_cat.txt
+-s -e -s test/test_4_cat.txt test/test_5_cat.txt
+-t -e -s test/test_4_cat.txt test/test_5_cat.txt
+-b -n -s test/test_4_cat.txt test/test_5_cat.txt
+-e -n -s test/test_4_cat.txt test/test_5_cat.txt
+-n -n -s test/test_4_cat.txt test/test_5_cat.txt
+-s -n -s test/test_4_cat.txt test/test_5_cat.txt
+-t -n -s test/test_4_cat.txt test/test_5_cat.txt
+-b -s -s test/test_4_cat.txt test/test_5_cat.txt
+-e -s -s test/test_4_cat.txt test/test_5_cat.txt
+-n -s -s test/test_4_cat.txt test/test_5_cat.txt
+-s -s -s test/test_4_cat.txt test/test_5_cat.txt
+-t -s -s test/test_4_cat.txt test/test_5_cat.txt
+-b -t -s test/test_4_cat.txt test/test_5_cat.txt
+-e -t -s test/test_4_cat.txt test/test_5_cat.txt
+-n -t -s test/test_4_cat.txt test/test_5_cat.txt
+-s -t -s test/test_4_cat.txt test/test_5_cat.txt
+-t -t -s test/test_4_cat.txt test/test_5_cat.txt
+-b -b -t test/test_4_cat.txt test/test_5_cat.txt
+-e -b -t test/test_4_cat.txt test/test_5_cat.txt
+-n -b -t test/test_4_cat.txt test/test_5_cat.txt
+-s -b -t test/test_4_cat.txt test/test_5_cat.txt
+-t -b -t test/test_4_cat.txt test/test_5_cat.txt
+-b -e -t test/test_4_cat.txt test/test_5_cat.txt
+-e -e -t test/test_4_cat.txt test/test_5_cat.txt
+-n -e -t test/test_4_cat.txt test/test_5_cat.txt
+-s -e -t test/test_4_cat.txt test/test_5_cat.txt
+-t -e -t test/test_4_cat.txt test/test_5_cat.txt
+-b -n -t test/test_4_cat.txt test/test_5_cat.txt
+-e -n -t test/test_4_cat.txt test/test_5_cat.txt
+-n -n -t test/test_4_cat.txt test/test_5_cat.txt
+-s -n -t test/test_4_cat.txt test/test_5_cat.txt
+-t -n -t test/test_4_cat.txt test/test_5_cat.txt
+-b -s -t test/test_4_cat.txt test/test_5_cat.txt
+-e -s -t test/test_4_cat.txt test/test_5_cat.txt
+-n -s -t test/test_4_cat.txt test/test_5_cat.txt
+-s -s -t test/test_4_cat.txt test/test_5_cat.txt
+-t -s -t test/test_4_cat.txt test/test_5_cat.txt
+-b -t -t test/test_4_cat.txt test/test_5_cat.txt
+-e -t -t test/test_4_cat.txt test/test_5_cat.txt
+-n -t -t test/test_4_cat.txt test/test_5_cat.txt
+-s -t -t test/test_4_cat.txt test/test_5_cat.txt
+-t -t -t test/test_4_cat.txt test/test_5_cat.txt
+-b -b -b test/test_3_cat.txt test/test_2_cat.txt
+-e -b -b test/test_3_cat.txt test/test_2_cat.txt
+-n -b -b test/test_3_cat.txt test/test_2_cat.txt
+-s -b -b test/test_3_cat.txt test/test_2_cat.txt
+-t -b -b test/test_3_cat.txt test/test_2_cat.txt
+-b -e -b test/test_3_cat.txt test/test_2_cat.txt
+-e -e -b test/test_3_cat.txt test/test_2_cat.txt
+-n -e -b test/test_3_cat.txt test/test_2_cat.txt
+-s -e -b test/test_3_cat.txt test/test_2_cat.txt
+-t -e -b test/test_3_cat.txt test/test_2_cat.txt
+-b -n -b test/test_3_cat.txt test/test_2_cat.txt
+-e -n -b test/test_3_cat.txt test/test_2_cat.txt
+-n -n -b test/test_3_cat.txt test/test_2_cat.txt
+-s -n -b test/test_3_cat.txt test/test_2_cat.txt
+-t -n -b test/test_3_cat.txt test/test_2_cat.txt
+-b -s -b test/test_3_cat.txt test/test_2_cat.txt
+-e -s -b test/test_3_cat.txt test/test_2_cat.txt
+-n -s -b test/test_3_cat.txt test/test_2_cat.txt
+-s -s -b test/test_3_cat.txt test/test_2_cat.txt
+-t -s -b test/test_3_cat.txt test/test_2_cat.txt
+-b -t -b test/test_3_cat.txt test/test_2_cat.txt
+-e -t -b test/test_3_cat.txt test/test_2_cat.txt
+-n -t -b test/test_3_cat.txt test/test_2_cat.txt
+-s -t -b test/test_3_cat.txt test/test_2_cat.txt
+-t -t -b test/test_3_cat.txt test/test_2_cat.txt
+-b -b -e test/test_3_cat.txt test/test_2_cat.txt
+-e -b -e test/test_3_cat.txt test/test_2_cat.txt
+-n -b -e test/test_3_cat.txt test/test_2_cat.txt
+-s -b -e test/test_3_cat.txt test/test_2_cat.txt
+-t -b -e test/test_3_cat.txt test/test_2_cat.txt
+-b -e -e test/test_3_cat.txt test/test_2_cat.txt
+-e -e -e test/test_3_cat.txt test/test_2_cat.txt
+-n -e -e test/test_3_cat.txt test/test_2_cat.txt
+-s -e -e test/test_3_cat.txt test/test_2_cat.txt
+-t -e -e test/test_3_cat.txt test/test_2_cat.txt
+-b -n -e test/test_3_cat.txt test/test_2_cat.txt
+-e -n -e test/test_3_cat.txt test/test_2_cat.txt
+-n -n -e test/test_3_cat.txt test/test_2_cat.txt
+-s -n -e test/test_3_cat.txt test/test_2_cat.txt
+-t -n -e test/test_3_cat.txt test/test_2_cat.txt
+-b -s -e test/test_3_cat.txt test/test_2_cat.txt
+-e -s -e test/test_3_cat.txt test/test_2_cat.txt
+-n -s -e test/test_3_cat.txt test/test_2_cat.txt
+-s -s -e test/test_3_cat.txt test/test_2_cat.txt
+-t -s -e test/test_3_cat.txt test/test_2_cat.txt
+-b -t -e test/test_3_cat.txt test/test_2_cat.txt
+-e -t -e test/test_3_cat.txt test/test_2_cat.txt
+-n -t -e test/test_3_cat.txt test/test_2_cat.txt
+-s -t -e test/test_3_cat.txt test/test_2_cat.txt
+-t -t -e test/test_3_cat.txt test/test_2_cat.txt
+-b -b -n test/test_3_cat.txt test/test_2_cat.txt
+-e -b -n test/test_3_cat.txt test/test_2_cat.txt
+-n -b -n test/test_3_cat.txt test/test_2_cat.txt
+-s -b -n test/test_3_cat.txt test/test_2_cat.txt
+-t -b -n test/test_3_cat.txt test/test_2_cat.txt
+-b -e -n test/test_3_cat.txt test/test_2_cat.txt
+-e -e -n test/test_3_cat.txt test/test_2_cat.txt
+-n -e -n test/test_3_cat.txt test/test_2_cat.txt
+-s -e -n test/test_3_cat.txt test/test_2_cat.txt
+-t -e -n test/test_3_cat.txt test/test_2_cat.txt
+-b -n -n test/test_3_cat.txt test/test_2_cat.txt
+-e -n -n test/test_3_cat.txt test/test_2_cat.txt
+-n -n -n test/test_3_cat.txt test/test_2_cat.txt
+-s -n -n test/test_3_cat.txt test/test_2_cat.txt
+-t -n -n test/test_3_cat.txt test/test_2_cat.txt
+-b -s -n test/test_3_cat.txt test/test_2_cat.txt
+-e -s -n test/test_3_cat.txt test/test_2_cat.txt
+-n -s -n test/test_3_cat.txt test/test_2_cat.txt
+-s -s -n test/test_3_cat.txt test/test_2_cat.txt
+-t -s -n test/test_3_cat.txt test/test_2_cat.txt
+-b -t -n test/test_3_cat.txt test/test_2_cat.txt
+-e -t -n test/test_3_cat.txt test/test_2_cat.txt
+-n -t -n test/test_3_cat.txt test/test_2_cat.txt
+-s -t -n test/test_3_cat.txt test/test_2_cat.txt
+-t -t -n test/test_3_cat.txt test/test_2_cat.txt
+-b -b -s test/test_3_cat.txt test/test_2_cat.txt
+-e -b -s test/test_3_cat.txt test/test_2_cat.txt
+-n -b -s test/test_3_cat.txt test/test_2_cat.txt
+-s -b -s test/test_3_cat.txt test/test_2_cat.txt
+-t -b -s test/test_3_cat.txt test/test_2_cat.txt
+-b -e -s test/test_3_cat.txt test/test_2_cat.txt
+-e -e -s test/test_3_cat.txt test/test_2_cat.txt
+-n -e -s test/test_3_cat.txt test/test_2_cat.txt
+-s -e -s test/test_3_cat.txt test/test_2_cat.txt
+-t -e -s test/test_3_cat.txt test/test_2_cat.txt
+-b -n -s test/test_3_cat.txt test/test_2_cat.txt
+-e -n -s test/test_3_cat.txt test/test_2_cat.txt
+-n -n -s test/test_3_cat.txt test/test_2_cat.txt
+-s -n -s test/test_3_cat.txt test/test_2_cat.txt
+-t -n -s test/test_3_cat.txt test/test_2_cat.txt
+-b -s -s test/test_3_cat.txt test/test_2_cat.txt
+-e -s -s test/test_3_cat.txt test/test_2_cat.txt
+-n -s -s test/test_3_cat.txt test/test_2_cat.txt
+-s -s -s test/test_3_cat.txt test/test_2_cat.txt
+-t -s -s test/test_3_cat.txt test/test_2_cat.txt
+-b -t -s test/test_3_cat.txt test/test_2_cat.txt
+-e -t -s test/test_3_cat.txt test/test_2_cat.txt
+-n -t -s test/test_3_cat.txt test/test_2_cat.txt
+-s -t -s test/test_3_cat.txt test/test_2_cat.txt
+-t -t -s test/test_3_cat.txt test/test_2_cat.txt
+-b -b -t test/test_3_cat.txt test/test_2_cat.txt
+-e -b -t test/test_3_cat.txt test/test_2_cat.txt
+-n -b -t test/test_3_cat.txt test/test_2_cat.txt
+-s -b -t test/test_3_cat.txt test/test_2_cat.txt
+-t -b -t test/test_3_cat.txt test/test_2_cat.txt
+-b -e -t test/test_3_cat.txt test/test_2_cat.txt
+-e -e -t test/test_3_cat.txt test/test_2_cat.txt
+-n -e -t test/test_3_cat.txt test/test_2_cat.txt
+-s -e -t test/test_3_cat.txt test/test_2_cat.txt
+-t -e -t test/test_3_cat.txt test/test_2_cat.txt
+-b -n -t test/test_3_cat.txt test/test_2_cat.txt
+-e -n -t test/test_3_cat.txt test/test_2_cat.txt
+-n -n -t test/test_3_cat.txt test/test_2_cat.txt
+-s -n -t test/test_3_cat.txt test/test_2_cat.txt
+-t -n -t test/test_3_cat.txt test/test_2_cat.txt
+-b -s -t test/test_3_cat.txt test/test_2_cat.txt
+-e -s -t test/test_3_cat.txt test/test_2_cat.txt
+-n -s -t test/test_3_cat.txt test/test_2_cat.txt
+-s -s -t test/test_3_cat.txt test/test_2_cat.txt
+-t -s -t test/test_3_cat.txt test/test_2_cat.txt
+-b -t -t test/test_3_cat.txt test/test_2_cat.txt
+-e -t -t test/test_3_cat.txt test/test_2_cat.txt
+-n -t -t test/test_3_cat.txt test/test_2_cat.txt
+-s -t -t test/test_3_cat.txt test/test_2_cat.txt
+-t -t -t test/test_3_cat.txt test/test_2_cat.txt
+-b -b test/test_3_cat.txt test/test_2_cat.txt
+-e -b test/test_3_cat.txt test/test_2_cat.txt
+-n -b test/test_3_cat.txt test/test_2_cat.txt
+-s -b test/test_3_cat.txt test/test_2_cat.txt
+-t -b test/test_3_cat.txt test/test_2_cat.txt
+-b -e test/test_3_cat.txt test/test_2_cat.txt
+-e -e test/test_3_cat.txt test/test_2_cat.txt
+-n -e test/test_3_cat.txt test/test_2_cat.txt
+-s -e test/test_3_cat.txt test/test_2_cat.txt
+-t -e test/test_3_cat.txt test/test_2_cat.txt
+-b -n test/test_3_cat.txt test/test_2_cat.txt
+-e -n test/test_3_cat.txt test/test_2_cat.txt
+-n -n test/test_3_cat.txt test/test_2_cat.txt
+-s -n test/test_3_cat.txt test/test_2_cat.txt
+-t -n test/test_3_cat.txt test/test_2_cat.txt
+-b -s test/test_3_cat.txt test/test_2_cat.txt
+-e -s test/test_3_cat.txt test/test_2_cat.txt
+-n -s test/test_3_cat.txt test/test_2_cat.txt
+-s -s test/test_3_cat.txt test/test_2_cat.txt
+-t -s test/test_3_cat.txt test/test_2_cat.txt
+-b -t test/test_3_cat.txt test/test_2_cat.txt
+-e -t test/test_3_cat.txt test/test_2_cat.txt
+-n -t test/test_3_cat.txt test/test_2_cat.txt
+-s -t test/test_3_cat.txt test/test_2_cat.txt
+-t -t test/test_3_cat.txt test/test_2_cat.txt

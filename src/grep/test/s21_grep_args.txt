@@ -1,0 +1,185 @@
+Hello test/test_0_grep.txt
+-e Hello test/test_0_grep.txt
+-i Hello test/test_0_grep.txt 
+-v king test/test_0_grep.txt 
+-c king test/test_0_grep.txt 
+-l king test/test_0_grep.txt 
+-n Hello test/test_0_grep.txt 
+-h Hello test/test_0_grep.txt test/test_0_grep.txt
+-s Hello nofile.txt
+-o Hello test/test_0_grep.txt
+-e Hello test/test_0_grep.txt test/test_1_grep.txt
+-i Hello test/test_0_grep.txt  test/test_1_grep.txt
+-v king test/test_0_grep.txt  test/test_1_grep.txt
+-c king test/test_0_grep.txt  test/test_1_grep.txt
+-l king test/test_0_grep.txt  test/test_1_grep.txt
+-n Hello test/test_0_grep.txt  test/test_1_grep.txt
+-h Hello test/test_0_grep.txt test/test_0_grep.txt test/test_1_grep.txt
+-o Hello test/test_0_grep.txt test/test_1_grep.txt
+test/test_0_grep.txt -e Hello -i -v
+test/test_0_grep.txt -e Hello -i -c
+test/test_0_grep.txt -e Hello -i -l
+test/test_0_grep.txt -e Hello -i -n
+test/test_0_grep.txt -e Hello -i -s
+test/test_0_grep.txt -e Hello -i -h
+test/test_0_grep.txt -e Hello -i 
+test/test_0_grep.txt -e Hello -v -c
+test/test_0_grep.txt -e Hello -v -l
+test/test_0_grep.txt -e Hello -v -n
+test/test_0_grep.txt -e Hello -v -s
+test/test_0_grep.txt -e Hello -v -h
+test/test_0_grep.txt -e Hello -v 
+test/test_0_grep.txt -e Hello -c -l
+test/test_0_grep.txt -e Hello -c -n
+test/test_0_grep.txt -e Hello -c -s
+test/test_0_grep.txt -e Hello -c -h
+test/test_0_grep.txt -e Hello -c 
+test/test_0_grep.txt -e Hello -l -n
+test/test_0_grep.txt -e Hello -l -s
+test/test_0_grep.txt -e Hello -l -h
+test/test_0_grep.txt -e Hello -l 
+test/test_0_grep.txt -e Hello -n -s
+test/test_0_grep.txt -e Hello -n -h
+test/test_0_grep.txt -e Hello -n 
+test/test_0_grep.txt -e Hello -s -h
+test/test_0_grep.txt -e Hello -s 
+test/test_0_grep.txt -e Hello -h 
+-e Hello test/test_0_grep.txt -i -v
+-e Hello test/test_0_grep.txt -i -c -o
+-e Hello test/test_0_grep.txt -i -l -o
+-e Hello test/test_0_grep.txt -i -n -o
+-e Hello test/test_0_grep.txt -i -s -o
+-e Hello test/test_0_grep.txt -i -h -o
+-e Hello test/test_0_grep.txt -i  -o
+-e Hello test/test_0_grep.txt -v -c -o
+-e Hello test/test_0_grep.txt -v -l -o
+-e Hello test/test_0_grep.txt -v -n 
+-e Hello test/test_0_grep.txt -v -s 
+-e Hello test/test_0_grep.txt -v -h
+-e Hello test/test_0_grep.txt -v
+-e Hello test/test_0_grep.txt -c -l -o
+-e Hello test/test_0_grep.txt -c -n -o
+-e Hello test/test_0_grep.txt -c -s -o
+-e Hello test/test_0_grep.txt -c -h -o
+-e Hello test/test_0_grep.txt -c  -o
+-e Hello test/test_0_grep.txt -l -n -o
+-e Hello test/test_0_grep.txt -l -s -o
+-e Hello test/test_0_grep.txt -l -h -o
+-e Hello test/test_0_grep.txt -l  -o
+-e Hello test/test_0_grep.txt -n -s -o
+-e Hello test/test_0_grep.txt -n -h -o
+-e Hello test/test_0_grep.txt -n  -o
+-e Hello test/test_0_grep.txt -s -h -o
+-e Hello test/test_0_grep.txt -s  -o
+-e Hello test/test_0_grep.txt -h  -o
+-e Hello  -i -v -c test/test_0_grep.txt -o
+-e Hello  -i -v -l test/test_0_grep.txt -o
+-e Hello  -i -v -n test/test_0_grep.txt
+-e Hello  -i -v -s test/test_0_grep.txt
+-e Hello  -i -v -h test/test_0_grep.txt
+-e Hello  -i -v  test/test_0_grep.txt
+-e Hello  -i -c -l test/test_0_grep.txt -o
+-e Hello  -i -c -n test/test_0_grep.txt -o
+-e Hello  -i -c -s test/test_0_grep.txt -o
+-e Hello  -i -c -h test/test_0_grep.txt -o
+-e Hello  -i -c  test/test_0_grep.txt -o
+-e Hello  -i -l -n test/test_0_grep.txt -o
+-e Hello  -i -l -s test/test_0_grep.txt -o
+-e Hello  -i -l -h test/test_0_grep.txt -o
+-e Hello  -i -l  test/test_0_grep.txt -o
+-e Hello  -i -n -s test/test_0_grep.txt -o
+-e Hello  -i -n -h test/test_0_grep.txt -o
+-e Hello  -i -n  test/test_0_grep.txt -o
+-e Hello  -i -s -h test/test_0_grep.txt -o
+-e Hello  -i -s  test/test_0_grep.txt -o
+-e Hello  -i -h  test/test_0_grep.txt -o
+-e Hello  -v -c -l test/test_0_grep.txt -o
+-e Hello  -v -c -n test/test_0_grep.txt -o
+-e Hello  -v -c -s test/test_0_grep.txt -o
+-e Hello  -v -c -h test/test_0_grep.txt -o
+-e Hello  -v -c  test/test_0_grep.txt -o
+-e Hello  -v -l -n test/test_0_grep.txt -o
+-e Hello  -v -l -s test/test_0_grep.txt -o
+-e Hello  -v -l -h test/test_0_grep.txt -o
+-e Hello  -v -l  test/test_0_grep.txt -o
+-e Hello  -v -n -s test/test_0_grep.txt
+-e Hello  -v -n -h test/test_0_grep.txt
+-e Hello  -v -n  test/test_0_grep.txt
+-e Hello  -v -s -h test/test_0_grep.txt
+-e Hello  -v -s  test/test_0_grep.txt
+-e Hello  -v -h  test/test_0_grep.txt
+-e Hello  -c -l -n test/test_0_grep.txt -o
+-e Hello  -c -l -s test/test_0_grep.txt -o
+-e Hello  -c -l -h test/test_0_grep.txt -o
+-e Hello  -c -l  test/test_0_grep.txt -o
+-e Hello  -c -n -s test/test_0_grep.txt -o
+-e Hello  -c -n -h test/test_0_grep.txt -o
+-e Hello  -c -n  test/test_0_grep.txt -o
+-e Hello  -c -s -h test/test_0_grep.txt -o
+-e Hello  -c -s  test/test_0_grep.txt -o
+-e Hello  -c -h  test/test_0_grep.txt -o
+-e Hello  -l -n -s test/test_0_grep.txt -o
+-e Hello  -l -n -h test/test_0_grep.txt -o
+-e Hello  -l -n  test/test_0_grep.txt -o
+-e Hello  -l -s -h test/test_0_grep.txt -o
+-e Hello  -l -s  test/test_0_grep.txt -o
+-e Hello  -l -h  test/test_0_grep.txt -o
+-e Hello  -n -s -h test/test_0_grep.txt -o
+-e Hello  -n -s  test/test_0_grep.txt -o
+-e Hello  -n -h  test/test_0_grep.txt -o
+-e Hello  -s -h  test/test_0_grep.txt -o
+-i -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -e Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -i Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -v Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -c Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -l Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -n Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-s -h Hello test/test_1_grep.txt test/test_0_grep.txt
+-i -s Hello test/test_1_grep.txt test/test_0_grep.txt
+-v -s Hello test/test_1_grep.txt test/test_0_grep.txt
+-c -s Hello test/test_1_grep.txt test/test_0_grep.txt
+-l -s Hello test/test_1_grep.txt test/test_0_grep.txt
+-n -s Hello test/test_1_grep.txt test/test_0_grep.txt
+-h -s Hello test/test_1_grep.txt test/test_0_grep.txt

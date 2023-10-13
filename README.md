@@ -105,7 +105,7 @@ When you use the `-t` flag, the custom `cat` utility will display tabs as `^I`, 
 
 ## Installation
 
-[Provide instructions for building or installing your custom `cat` utility here, if applicable.]
+In the creating process...
 
 ## License
 

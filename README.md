@@ -1,6 +1,3 @@
-Certainly, I'll combine the two `README.md` templates for your custom `cat` and `grep` utilities into a single comprehensive `README.md`. Here's the unified `README.md`:
-
-```markdown
 # Custom Command-Line Utilities
 
 This repository contains custom implementations of the `cat` and `grep` utilities with additional flags for advanced text manipulation and searching.

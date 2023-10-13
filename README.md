@@ -26,7 +26,7 @@ This custom `cat` utility is designed to provide additional functionality beyond
 To use this custom `cat` utility, you can run it from the command line, providing the desired flags and the path to the file you want to manipulate. Here's a basic usage example:
 
 ```shell
-./custom-cat [OPTION] [FILE]
+./custom-cat [FLAGS] [FILE]
 ```
 
 Replace `[FLAGS]` with one or more of the flags described below and `[FILE]` with the path to the file you want to process.
